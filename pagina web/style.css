@@ -1,0 +1,461 @@
+body{
+    font-size: 18px;    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursiva;
+}
+
+@media (min-widht: 800px){
+    body{
+        background-color: blue;
+    }
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    color: indianred;
+}
+
+.HeaderLogo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+} 
+
+.Headernav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.Headernav a{   
+    color: indianred;    
+    text-decoration: none    
+}
+
+.NavRegistro{
+    width: 25%;
+    padding: 10px 0 10px 0;
+    border-radius: 12px 12px 12px 12px;    
+    text-align: center;
+}
+
+.NavRegistro:hover{
+    color: black;
+    background-color: rgb(163, 22, 22);
+}
+
+.SectionOne{
+    position: relative;
+}
+.SectionOneTitle{
+    position:absolute;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.SectionOne img{
+    width: 100%;
+}
+
+.contenedor{
+    position: relative;
+}
+
+.title-section{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.texto{
+    text-align: center;
+    text-transform: unset;
+    margin: 20px 0;
+}
+
+.beneficios{
+    position: relative;
+    display: flex;
+    flex-direction: column;     
+    top: 40%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.beneficio{
+    position:relative;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: coral;
+    
+    }
+
+.beneficios img{
+    width: 100%;
+    height: 100%;  
+}
+
+.cont{
+    position: relative;
+    padding: 1em;
+}
+
+.title-conocenos{
+    position:absolute;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.consulta{
+    background-color: aqua;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.quienes{
+    background-image: url(quienes\ somos.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px;
+    color: black;
+    padding: 55px;
+    float: left;
+}
+
+.mision{
+    background-image: url(mision1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px;
+    color: brown;
+    padding: 65px;
+    float: left;
+}
+
+.vision{
+    background-image: url(vision.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px;
+    color: red;
+    padding: 85px;
+    float: left;
+}
+
+.event{
+    position: relative;
+}
+
+.title-evento{
+    position: relative;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.btn1{
+    background-color: palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color:palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn3{
+    background-color: palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn4{
+    background-color: palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn5{
+    background-color: palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn6{
+    background-color: palegreen;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn7{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn8{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn9{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn10{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn11{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn12{
+    background-color: cornflowerblue;
+    width: 200px;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.registro{
+    position: relative;
+    padding: 1em;
+}
+
+.title-formulario{
+    position:relative;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: blue;    
+}
+
+.controls{
+    justify-items: center;
+    background: midnightblue;
+    width: 50%;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: blanchedalmond;
+    font-size: 22px;
+    margin-bottom: 20px;   
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px; 
+}
+
+.boton{
+    width: 20%;
+    background: gray;
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    font-size: 16px;
+
+}
+
+.social{
+    position: relative;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.title-social{
+    position: relative;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.redes{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+
+.redes:hover{
+    background-color: lightblue;
+    box-shadow: 0 0 20px lightblue;
+}
+
+.redes:hover:nth-child(2){
+    background-color: lightgray;
+    box-shadow: 0 0 20px lightgray;
+}
+
+.redes:hover:nth-child(3){
+    background-color: pink;
+    box-shadow: 0 0 20px pink;
+}
+
+.redes:hover:nth-child(4){
+    background-color: powderblue;
+    box-shadow: 0 0 20px powderblue;
+}
+
+.redes i {
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle{
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.redes:hover circle{
+    stroke-dasharray: 220;
+}
+
+@media screen and (min-widht: 780px) and (max-widht: 1024px ){
+    .title-formulario{
+        color: khaki;
+    }
+}
+
+@media screen and (max-widht: 480px)
+{
+    .controls{
+        background-color: rgb(230, 19, 19);
+    }
+
+    .controls{
+        width: 100%; 
+    }
+
+}
+
+@media screen and (min-widht: 480px){
+    .social{
+        height: 80px;
+    }
+
+    .social{
+        background-color: rgb(red, green, blue);
+    }
+}
